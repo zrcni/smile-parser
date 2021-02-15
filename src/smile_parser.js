@@ -32,7 +32,7 @@ export const smileParse = (str, options) => {
       emoji[0],
       `<img ${options.styles ? `style="${options.styles}"` : ""} src="${
         options.url
-      }${emoticon.image}" alt="${emoticon.short_name}" />`
+      }${emoticon.image}" alt="${emoticon.short_names[0]}" />`
     )
   }
 
